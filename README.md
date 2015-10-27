@@ -31,20 +31,20 @@ Download: [samtools 0.1.19](http://sourceforge.net/projects/samtools/files/samto
 
 Setting the parameters
 ---------
-Set the correct paths to above software and databases in configs.sh, and run `bash configs.sh`
+Set the correct paths to above software and databases in `configs.sh`
 
 Filtering host DNA
 ---------
 Step 1. Align all reads to hg19 Human reference genome with BWA  
-`bash Filter_S1.sh`  
+`./Filter_S1.sh`  
 Step 2. Align the remaining unmapped reads to additional human genomes with BWA  
-`bash Filter_S2.sh`  
+`./Filter_S2.sh`  
 Step 3. Filter the remaining unmapped reads with RepearMasker  
-`bash Filter_S3.sh`  
+`./Filter_S3.sh`  
 Step 4. Align the remaining reads to human sequence database with BLAST  
-`bash Filter_S4.sh`  
+`./Filter_S4.sh`  
 Step 5. Align the remaining reads to human sequence database with MegaBLAST  
-`bash Filter_S5.sh`  
+`./Filter_S5.sh`  
 
 Microbiome profiling
 ---------
@@ -52,3 +52,4 @@ Step 1. Align fully filtered reads to NCBI bacteria compelete genomes with Bowti
 Step 2. Calculate the genome coverages to further remove false identification  
 Step 3. Assign the multiple mapped the reads with PathoScope  
 Step 4. Re-evaluate the relative abundances of microbiome  
+`./Profiling.sh`
