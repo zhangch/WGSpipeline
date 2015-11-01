@@ -1,5 +1,5 @@
 #!/bin/bash -l
-export PATH=/home/user/tools/samtools-0.1.18:/home/user/tools/RepeatMasker:/home/user/tools/blast-2.2.27/bin/:/home/user/R/R-3.0.2/bin/:$PATH
+export PATH=/home/user/tools/bowtie2-2.2.5/:/home/user/tools/samtools-0.1.18:/home/user/tools/RepeatMasker:/home/user/tools/blast-2.2.27/bin/:/home/user/R/R-3.0.2/bin/:/home/user/R/R-3.0.2/bin/£º$PATH
 
 BWA=/home/user/tools/bwa-0.6.2/bwa
 BOWTIE2=/home/user/tools/bowtie2-2.2.5/bowtie2
@@ -14,3 +14,5 @@ WORKDIR="/home/user/WGSpipe"
 SAMPLE="SRS022545"
 CPU=16
 MINCOUNTS=50
+VAR1=2
+VAR2=0.00005
