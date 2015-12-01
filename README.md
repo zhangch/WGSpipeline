@@ -5,7 +5,7 @@ Computational pipelines for filtering host DNA and evaluating the microbiome abu
 
 Citing our paper:
 ---------
-Zhang C, Cleveland K, Schnoll-Sussman F, McClure B, Bigg M, Thakkar P, Schultz M, Shah M, and Betel D. Identification of the gastric microbiome from endoscopic biopsy samples using whole genome sequencing. Genome Biology. 2015
+Chao Zhang, Kyle Cleveland, Felice Schnoll-Sussman, Bridget McClure, Michelle Bigg, Prashant Thakkar, Nikolaus Schultz, Manish A. Shah, and Doron Betel. "Identification of low abundance microbiome in clinical samples using whole genome sequencing." *Genome Biology* 16 (2015).
 
 Installing prerequisite software and corresponding databases
 ---------
